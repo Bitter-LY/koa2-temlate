@@ -1,5 +1,0 @@
-[2021/4/25 上午12:32:40]     [INFO]     [DEVELOPMENT_INFO]     GET		/user/info		PostmanRuntime/7.26.10     4ms
-[2021/4/25 上午12:34:24]     [INFO]     [DEVELOPMENT_INFO]     GET		/user/info?id=0		PostmanRuntime/7.26.10     5ms
-[2021/4/25 上午12:34:43]     [INFO]     [DEVELOPMENT_INFO]     GET		/user/info?id=1		PostmanRuntime/7.26.10     9ms
-[2021/4/25 上午12:36:17]     [INFO]     [DEVELOPMENT_INFO]     GET		/user/info		PostmanRuntime/7.26.10     4ms
-[2021/4/25 上午12:36:20]     [INFO]     [DEVELOPMENT_INFO]     GET		/user/info?id=1		PostmanRuntime/7.26.10     2ms
