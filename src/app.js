@@ -7,6 +7,8 @@ const routers = require('./routers')
 const { infoLogger, errorLogger } = require('./log')
 const { logTmp } = require('./utils/parserReq')
 const path = require('path')
+// mqtt
+const { mqttServer } = require('./mqtt')
 
 // 服务
 const app = new Koa()
@@ -47,4 +49,5 @@ app.use(routers.allowedMethods())
 // 开启服务
 app.listen(3000, () => {
   console.info('服务器开启：http://localhost:3000')
+  console.log('mqtt服务开启: 192.168.1.101:1883')
 })
