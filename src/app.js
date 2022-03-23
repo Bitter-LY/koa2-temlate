@@ -23,7 +23,7 @@ const app = new Koa()
 app.use(compress(compressOptions))
 
 // 配置静态web服务的中间件
-app.use(static(path.resolve(__dirname, 'static/')))
+app.use(static(path.resolve(__dirname, 'static/web.local')))
 
 // 服务代理
 app.use(proxy(proxyOptions))

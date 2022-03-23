@@ -3,3 +3,6 @@ node_modules
 
 # 忽略日志
 logs/*
+
+# 本地文件
+src/static/*.local/*
