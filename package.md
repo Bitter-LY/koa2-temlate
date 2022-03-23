@@ -12,4 +12,4 @@
 | jsonwebtoken          | ^8.5.1  | token 生成及验证                            |
 | log4js                | ^6.3.0  | 日志输出（依赖 npm 模块）                   |
 | koa2-proxy-middleware | ^0.0.4  | 服务代理                                    |
-| koa-compress          | ^5.1.0  | GZIP 压缩                                   |
+| koa-compress          | ^5.1.0  | 资源压缩                                   |
